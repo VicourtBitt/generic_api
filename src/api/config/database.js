@@ -4,7 +4,7 @@ const USER = 'root'
 const PASSWORD = 'vicourt01'
 
 const sequelize = new Sequelize('generalTest', USER, PASSWORD, {
-    host: 'localhost',
+    host: '0.0.0.0',
     dialect: 'mysql',
     define: {
         timestamps: false
